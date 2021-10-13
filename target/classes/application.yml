@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9080
 
 # mysql
 spring:
@@ -47,6 +47,10 @@ spring:
 
 mybatis-plus:
   mapperLocations: classpath:mapper/**/*.xml
+  global-config:
+    banner: false
+  configuration:
+    cache-enabled: false
 
 
 pagehelper:

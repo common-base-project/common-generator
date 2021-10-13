@@ -16,6 +16,9 @@ import org.springframework.context.annotation.Primary;
  */
 @Configuration
 public class DbConfig {
+    /**
+     * 数据库类型
+     */
     @Value("${common.database: mysql}")
     private String database;
     @Autowired
