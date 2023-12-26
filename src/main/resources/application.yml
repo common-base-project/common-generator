@@ -9,9 +9,13 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/db_admin?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+#    url: jdbc:mysql://gz-cynosdbmysql-grp-1rx89a8p.sql.tencentcdb.com:26140/db_edgeComputing?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+    url: jdbc:mysql://gz-cynosdbmysql-grp-1rx89a8p.sql.tencentcdb.com:26140/db_bga?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
     username: root
-    password: mustang
+    password: Mustang123456
+#    url: jdbc:mysql://localhost:3306/db_edgeComputing?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
+#    username: root
+#    password: mustang
   jackson:
     time-zone: GMT+8
     date-format: yyyy-MM-dd HH:mm:ss
